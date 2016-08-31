@@ -23,7 +23,7 @@ public class PangramChecker {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the string");
 		String str = scanner.nextLine();
-		PangramChecker.pangramChecker(str);
+		pangramChecker(str);
 		scanner.close();
 	}
 }
